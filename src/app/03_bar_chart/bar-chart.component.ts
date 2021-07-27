@@ -5,8 +5,8 @@ import * as d3Array from 'd3-array';
 import * as d3Axis from 'd3-axis';
 import * as d3Zoom from 'd3-zoom';
 import * as d3Brush from 'd3-brush';
-import { IChartMeasure, INineBoxMatrixModel } from '../model/chartmodel';
-import { chartMeasure, data } from '../data/data';
+import { IChartMeasure, INineBoxMatrixModel } from './chartmodel';
+import { chartMeasure, data } from './data';
 
 @Component({
   selector: 'ftr-bar-chart',
