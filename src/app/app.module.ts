@@ -16,7 +16,7 @@ const appRoutes: Routes = [
   // { path: 'brush-zoom', component: BrushZoomComponent },
   // { path: 'pie-chart', component: PieChartComponent },
   // { path: 'donut-chart', component: DonutChartComponent },
-  { path: '', redirectTo: '/line-chart', pathMatch: 'full' },
+  { path: '', redirectTo: '/bar-chart', pathMatch: 'full' },
   { path: '**', component: BarChartComponent }
 ];
 
